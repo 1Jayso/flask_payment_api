@@ -22,12 +22,14 @@ Once the application has started: you can reach on localhost:5000 in postman or 
 -------------------------------------
 
 **To send payment with the "pay" endpoint, use form fields below**
--------------------------------------------------------------
+--------------------------------------------------------
+|   Field            | Value                           |
+|------------------- |---------------------------------|
 |card_type           |[the value should be set to card]|
 |card_number         |[any test card from stripe]      |
 |card_month          |[any month number e.g 9]         |
 |card_year           |[any year in the future e.g 2022]|
 |card_cvc            |[any three  digit number]        |
 |product_price       |[any amount in cent]             |
-
+--------------------------------------------------------
 

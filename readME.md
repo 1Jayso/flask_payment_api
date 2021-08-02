@@ -1,10 +1,11 @@
 
 **This is a Flask payment microservice built with stripe Payment gateway API integration**
 
-To run the apllication with docker-compose make sure you are in the flask_payment_api directory.
+*To run the apllication with docker-compose make sure you are in the flask_payment_api directory.*
 
-Use the command below to build the application
+Use the following commands to build and start the payment_api container
 ```[docker-compose build] ```
+
 ```[docker-compose up]```
 
 

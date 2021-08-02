@@ -21,9 +21,11 @@ Once the application has started: you can reach on localhost:5000 in postman or 
 |[GET]            |balance          |
 |                 |                 |
 |[POST]           |pay              |
+
 -------------------------------------
 
-*To send payment with the "pay" endpoint, use the form fields below as a guide*
+*To send payment with the "pay" endpoint, use the form fields below as a guide and provide their respective values as follows*
+
 --------------------------------------------------------
 |   Field            | Value                           |
 |------------------- |---------------------------------|
@@ -33,5 +35,5 @@ Once the application has started: you can reach on localhost:5000 in postman or 
 |card_year           |[any year in the future e.g 2022]|
 |card_cvc            |[any three  digit number]        |
 |product_price       |[any amount in cent]             |
---------------------------------------------------------
 
+--------------------------------------------------------

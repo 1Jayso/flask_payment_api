@@ -4,8 +4,8 @@
 To run the apllication with docker-compose make sure you are in the flask_payment_api directory.
 
 Use the command below to build the application
-[docker-compose build] 
-[docker-compose up]
+```[docker-compose build] ```
+```[docker-compose up]```
 
 
 Once the application has started: you can reach on localhost:5000 in postman or any http client
@@ -21,7 +21,7 @@ Once the application has started: you can reach on localhost:5000 in postman or 
 |[POST]           |pay              |
 -------------------------------------
 
-**To send payment with the "pay" endpoint, use form fields below**
+**To send payment with the "pay" endpoint, use the form fields below* as a guide**
 --------------------------------------------------------
 |   Field            | Value                           |
 |------------------- |---------------------------------|

@@ -1,0 +1,23 @@
+version: '3.7'
+
+services:
+  payment_api:
+    build: .
+
+    command: python app.py 0.0.0.0:5000
+    volumes:
+      - .:/payment_API
+    ports:
+      - 5000:5000
+
+    networks:
+      - testenvnet
+
+      
+networks:
+    testenvnet:
+        driver: "bridge"
+volumes: 
+    .:
+        name: .
+

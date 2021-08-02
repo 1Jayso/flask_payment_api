@@ -24,7 +24,7 @@ Once the application has started: you can reach on localhost:5000 in postman or 
 
 -------------------------------------
 
-*To send payment with the "pay" endpoint, use the form fields below as a guide and provide their respective values as follows*
+**To send payment with the "pay" endpoint, use the form fields below as a guide and provide their respective values as follows**
 
 --------------------------------------------------------
 |   Field            | Value                           |

@@ -17,13 +17,13 @@ Once the application has started: you can reach on localhost:5000 in postman or 
 |-----------------|-----------------|
 |                 |                 |
 |[GET]            |all-transactions |
-|-----------------|-----------------|
+|                 |                 |
 |[GET]            |balance          |
-|-----------------|-----------------|
+|                 |                 |
 |[POST]           |pay              |
 -------------------------------------
 
-**To send payment with the "pay" endpoint, use the form fields below as a guide**
+*To send payment with the "pay" endpoint, use the form fields below as a guide*
 --------------------------------------------------------
 |   Field            | Value                           |
 |------------------- |---------------------------------|
